@@ -8,7 +8,7 @@ from gradio_client import Client, file as gradio_file
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyDp_eC4dBVRSh7SacKvhB2XaSe2E1EbfZY")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 HOST = "localhost"
